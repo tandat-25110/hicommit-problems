@@ -10,7 +10,7 @@ int main() {
      printf("0");
    }
   else if (KHOANGCACH >=1 && KHOANGCACH <=5) {
-     printf("1500");
+     printf("15000");
    }
   else if (KHOANGCACH >=6 && KHOANGCACH <=15) {
      printf("25000");
