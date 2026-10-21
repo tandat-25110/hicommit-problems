@@ -1,21 +1,21 @@
 #include <stdio.h>
 
 int main() {
-  int khoangcach, giatri;
-    scanf("%d %d", &khoangcach, &giatri)
-    if (khoangcach <== 0 || giatri <== 0){
+  int KHOANGCACH, GIATRI;
+    scanf("%d %d", &KHOANGCACH, &GIATRI)
+    if (KHOANGCACH <== 0 || GIATRI <== 0){
       printf("INVALID");
     }
-   else if (giaitri >=500000 && khoangcach <==15){
+   else if (GIATRI >=500000 && KHOANGCACH <==15){
      printf("0");
    }
-  else if (giaitri >=1 && khoangcach <==5){
+  else if (KHOANGCACH >=1 && KHOANGCACH <==5){
      printf("1500");
    }
-  else if (giaitri >=6 && khoangcach <==15){
+  else if (KHOANGCACH >=6 && KHOANGCACH <==15){
      printf("25000")
    }
-  else if {// khoangcach > 15 km
+  else {// khoangcach > 15 km
     printf("40000");} 
    }
   return 0;
