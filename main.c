@@ -2,12 +2,12 @@
 
 int main() {
   int a;
-  scanf(:"%d", &a);
+  scanf("%d", &a);
   if (a%2 == 0) {
       printf("CHAN");
   }
   else{
-    printf("LE")
+    printf("LE");
   }
       if (a==0) {
       printf("CHAN");
