@@ -3,7 +3,7 @@
 int main() {
   int KHOANGCACH, GIATRI;
     scanf("%d %d", &KHOANGCACH, &GIATRI);
-    if (KHOANGCACH <= 0 || GIATRI <== 0){
+    if (KHOANGCACH <= 0 || GIATRI <= 0){
       printf("INVALID");
     }
    else if (GIATRI >=500000 && KHOANGCACH <=15) {
