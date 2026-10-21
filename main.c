@@ -9,9 +9,6 @@ int main() {
   else{
     printf("LE");
   }
-      if (a==0) {
-      printf("CHAN");
-     }
   
   return 0;
 }
