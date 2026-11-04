@@ -15,7 +15,7 @@ int main() {
     case 4:
       puts("XEP_LOAI_TRUNG_BINH");
       break;
-    default;
+    default:
       puts("KHONG_HOP_LE");
       break;
   }
