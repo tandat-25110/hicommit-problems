@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main() {
   float dtb;
-  int drl; 
+  float drl; 
   int hl = 0; 
   int rl = 0;
   
-   scanf ("%f %d", &dtb, &drl );
+   scanf ("%f %f", &dtb, &drl );
   
   if (dtb>=9.0) hl = 4;
   else if (dtb >= 80) hl = 3;
