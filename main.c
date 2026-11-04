@@ -2,7 +2,7 @@
 int main() {
   float dtb;
   int drl; 
-  int phanloaihocluc = 0, 
+  int phanloaihocluc = 0; 
   int phanloaidrl = 0;
   
    scanf ("%f %d", &dtb, &drl );
