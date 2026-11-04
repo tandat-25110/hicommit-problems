@@ -21,12 +21,12 @@ int main() {
   if (hl == 1 && rl == 1){
   printf("HOC_BONG_XUAT_SAC\n");
 } 
- else if ((hl == 1 && (rl == 1 || rl == 2)){
+ else if ((hl == 1 && rl == 1 || rl == 2)){
   printf("HOC_BONG_GIOI\n"); }
- else if (hl == 2 && rl == 2)) {
+ else if (hl == 2 && rl == 2) {
   printf("HOC_BONG_GIOI\n");
 } 
- else if ((hl == 3 && rl >= 3) {
+ else if ((hl == 3 && rl >= 3)09 {
     printf("HOC_BONG_KHA\n"); }
  else if ((rl == 3 && hl ==1 || hl == 2)) {
   printf("HOC_BONG_KHA\n");
