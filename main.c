@@ -25,11 +25,19 @@ int main() {
   }else
     phanloaidrl = 1;
   }
-if (phanloaihocbong == 1 ){
+if (phanloaihocbong == 1 || phanloaidrl == 1){
   printf("KHONG_DAT\n");
 }else if (phanloaihocluc == 4 && phanloaidrl == 4){
-  printf ("HOC_BONG_XUAT_SAC\N");\
-  
-}
+  printf ("HOC_BONG_XUAT_SAC\N");
+}else if ((phanloaihocluc == 3 && phanloaidrl == 3 || phanloaidrl == 4)) ||
+         (phanloaihocluc == 4 && phanloaidrl == 3) 
+  printf ("HOC_BONG_GIOI\N");
+}else if (phanloaihocluc == 2 && phanloaidrl >= 2) ||
+        (phanloaihocluc == 3 && phanloaidrl == 2) ||
+        (phanloaihocluc == 4 && phanloaidrl >= 2) || {
+  printf ("HOC_BONG_KHA\N");  
+} else{
+  printf ("KHONG_DAT\N");                     
+
   return 0;
 }
