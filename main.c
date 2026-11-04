@@ -21,6 +21,15 @@ int main() {
   }else if (drl >= 80){
     phanloaidrl = 3;
   }else if (drl >= 70){
+    phanloaidrl = 2;
+  }else
+    phanloaidrl = 1;
   }
+if (phanloaihocbong == 1 ){
+  printf("KHONG_DAT\n");
+}else if (phanloaihocluc == 4 && phanloaidrl == 4){
+  printf ("HOC_BONG_XUAT_SAC\N");\
+  
+}
   return 0;
 }
