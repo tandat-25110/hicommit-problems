@@ -1,11 +1,13 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
-
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+  float dtb;
+  int drl; phanloaihocluc, phanloaidrl;
+  phanloaihocluc =0;
+  phanloaidrl1=0;
+   scanf ("%f %d", &dtb, &drl );
+  ì (dtb>=9.0){
+    phanloaihocluc=1;
+  }
+  
+  return 0;
 }
