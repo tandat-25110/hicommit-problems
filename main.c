@@ -8,13 +8,13 @@ int main() {
    scanf ("%f %d", &dtb, &drl );
   
   if (dtb>=9.0) hl = 4;
-   else if (dtb >=80) hl = 3;
-   else if (dtb >=70)  hl = 2;
-   else  hl = 1;
+  else if (dtb >= 80) hl = 3;
+  else if (dtb >= 70) hl = 2;
+  else hl = 1;
  
   if (drl >=90) rl = 4;
   else if (drl >= 80) rl = 3;
-  else if (drl >= 70)rl = 2;
+  else if (drl >= 70) rl = 2;
   else rl = 1;  
   
  if (hl == 1 || rl == 1) {
