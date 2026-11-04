@@ -23,7 +23,7 @@ int main() {
  else if (hl == 4 && rl == 4){
   printf("HOC_BONG_XUAT_SAC\n");
 } 
- else if ((hl == 3 && (drl == 3 || drl == 4)) || (hl == 4 && rl == 3)) {
+ else if ((hl == 3 && (rl == 3 || rl == 4)) || (hl == 4 && rl == 3)) {
   printf ("HOC_BONG_GIOI\n");
 } 
  else if ((hl == 2 && rl >= 2) ||  (hl == 3 && rl == 2) || (hl == 4 && rl == 2)) {
