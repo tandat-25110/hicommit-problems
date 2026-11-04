@@ -16,5 +16,11 @@ int main() {
   } else {
     phanloaihocluc = 1;
  }
+  if (drl >=90){
+    phanloaidrl = 4;
+  }else if (drl >= 80){
+    phanloaidrl = 3;
+  }else if (drl >= 70){
+  }
   return 0;
 }
