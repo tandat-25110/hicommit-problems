@@ -7,26 +7,24 @@ int main() {
   
    scanf ("%f %f", &dtb, &drl );
   
-  if (dtb>=9.0) hl = 4;
-  else if (dtb >= 80) hl = 3;
-  else if (dtb >= 70) hl = 2;
-  else hl = 1;
+  if (dtb>=9.0) hl = 1;
+  else if (dtb >= 80) hl = 2;
+  else if (dtb >= 70) hl = 3;
+  else hl = 4;
  
-  if (drl >=90) rl = 4;
-  else if (drl >= 80) rl = 3;
-  else if (drl >= 70) rl = 2;
-  else rl = 1;  
+  if (drl >=90) rl = 1;
+  else if (drl >= 80) rl = 2;
+  else if (drl >= 70) rl = 3;
+  else rl = 4;  
   
- if (hl == 1 || rl == 1) {
-    printf("KHONG_DAT\n");
-}
- else if (hl == 4 && rl == 4){
+ 
+  if (hl == 1 && rl == 1){
   printf("HOC_BONG_XUAT_SAC\n");
 } 
- else if ((hl == 3 && (rl == 3 || rl == 4)) || (hl == 4 && rl == 3)) {
+ else if ((hl == 1 && (rl == 1 || rl == 2)) || (hl == 2 && rl == 2)) {
   printf("HOC_BONG_GIOI\n");
 } 
- else if ((hl == 2 && rl >= 2) || (hl == 3 && rl == 2) || (hl == 4 && rl == 2)) {
+ else if ((hl == 3 && rl >= 3) || (rl == 3 && hl ==1 || hl == 2) {
   printf("HOC_BONG_KHA\n");
 }
  else{
